@@ -47,7 +47,7 @@ function init() {
     inquirer.prompt(questions).then(data => {
         console.log(data);
         const readmeContents= `# ${data.title}`
-        + "\n" + `## Table of Contents`+ "\n" +`1. [Description](#description) \n2. [Installation](#installation)\n3. [Usage Information](#usage-information)\n4. [Contribution Guidelines](#contribution-guidelines)\n3. [Testing](#testing)`
+        + "\n" + `## Table of Contents`+ "\n" +`1. [Description](#description) \n2. [Installation](#installation)\n3. [Usage Information](#usage-information)\n4. [Contribution Guidelines](#contribution-guidelines)\n5. [Testing](#testing)`
         + "\n" + `## Description`+ "\n" +`${data.description}`
         + "\n" + `## Installation`+ "\n" +`${data.installation}`
         + "\n" + `## Usage Information`+ "\n" +`${data.usage}`
