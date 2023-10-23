@@ -57,6 +57,7 @@ function init() {
     inquirer.prompt(questions).then(data => {
         console.log(data);
         const readmeContents= `# ${data.title}`
+
         +`\n## Table of Contents\n1. [Description](#description) \n2. [Installation](#installation)\n3. [Usage Information](#usage-information)\n4. [Contribution Guidelines](#contribution-guidelines)\n5. [Testing](#testing)\n6. [Questions](#questions)`
         +`\n## Description\n${data.description}`
         +`\n## Installation\n${data.installation}`
@@ -64,6 +65,7 @@ function init() {
         +`\n## Constribution Guidelines\n${data.contribution}`
         +`\n## Testing\n${data.test}`
         +`\n## Questions\n### My Github\n[github.com/${data.username}](#github.com/${data.username.toLowerCase()})\n### Contact Me\n${data.email}`;
+
         writeToFile("README.md",readmeContents);
 
     })
