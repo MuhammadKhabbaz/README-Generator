@@ -64,7 +64,7 @@ function init() {
         +`\n## Usage Information\n${data.usage}`
         +`\n## Constribution Guidelines\n${data.contribution}`
         +`\n## Testing\n${data.test}`
-        +`\n## Questions\n### My Github\n[github.com/${data.username}](#github.com/${data.username.toLowerCase()})\n### Contact Me\n${data.email}`;
+        +`\n## Questions\n### My Github\n[github.com/${data.username}](https://github.com/${data.username})\n### Contact Me\n${data.email}`;
 
         writeToFile("README.md",readmeContents);
 
