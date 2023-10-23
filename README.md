@@ -1,4 +1,12 @@
-# y
+# game
+## License
+
+[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+
+This project is licensed under the Mozilla Public License 2.0. For more details, see [Mozilla Public License 2.0](https://opensource.org/license/mpl-2-0/) or refer to the included [LICENSE file](./LICENSE).
+
+  
+
 ## Table of Contents
 1. [Description](#description) 
 2. [Installation](#installation)
@@ -7,15 +15,15 @@
 5. [Testing](#testing)
 6. [Questions](#questions)
 ## Description
-y
+bored play this fun game
 ## Installation
-y
+click download
 ## Usage Information
-y
+use arrows
 ## Constribution Guidelines
-y
+n/a
 ## Testing
-y
+n/a
 ## Questions
 ### My Github
 [github.com/MuhammadKhabbaz](https://github.com/MuhammadKhabbaz)
