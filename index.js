@@ -1,12 +1,19 @@
 // TODO: Include packages needed for this application
 const inquirer = require("inquirer");
 const fs = require("fs")
+const generateMarkdown = require("./utils/generateMarkdown")
 // TODO: Create an array of questions for user input
 const questions = [
     {
         type:"input",
         message:"What is your project title?",
         name: "title"
+    },
+    {
+        type:"rawlist",
+        message:"What license do you want to use?",
+        choices:["Boost Software License 1.0","MIT","ISC","Mozilla Public License 2.0","zLib License","No License"],
+        name: "license"
     },
     {
         type:"input",
@@ -57,7 +64,7 @@ function init() {
     inquirer.prompt(questions).then(data => {
         console.log(data);
         const readmeContents= `# ${data.title}`
-
+        +"\n"+generateMarkdown(data)
         +`\n## Table of Contents\n1. [Description](#description) \n2. [Installation](#installation)\n3. [Usage Information](#usage-information)\n4. [Contribution Guidelines](#contribution-guidelines)\n5. [Testing](#testing)\n6. [Questions](#questions)`
         +`\n## Description\n${data.description}`
         +`\n## Installation\n${data.installation}`
@@ -70,7 +77,6 @@ function init() {
 
     })
 }
-
 // Function call to initialize app
 init();
 
