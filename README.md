@@ -1,15 +1,17 @@
-# 2
+# 1
 ## Table of Contents
-1. [Description](#Description) 
-2. [Installation](#Installation)
-3. [Testing](#Testing)
+1. [Description](#description) 
+2. [Installation](#installation)
+3. [Usage Information](#usage-information)
+4. [Contribution Guidelines](#contribution-guidelines)
+3. [Testing](#testing)
 ## Description
-3
+2
 ## Installation
-4
+3
 ## Usage Information
-5
+4
 ## Constribution Guidelines
-6
+5
 ## Testing
-7
+6
