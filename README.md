@@ -14,4 +14,4 @@ node js
 npm
 
 ## Video Walkthrough
-[![Watch the video]](https://watch.screencastify.com/v/0NVMk0LxAyZVhXai4onu)
+[Watch the video walkthrough](https://watch.screencastify.com/v/0NVMk0LxAyZVhXai4onu)
